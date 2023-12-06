@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #EAECF9;
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
     width: 810px;
     height: 718px;
     border-radius: 15px;
+    background: #FFF;
 }
 
 
@@ -39,6 +41,7 @@ body {
     font-weight: 400;
     cursor: pointer;
     border: none;
+    text-transform: uppercase;
 }
 
 .btn button:hover {
@@ -76,10 +79,9 @@ body {
     text-transform: capitalize;
 }
 
-.data .d .dend{
-}
+.data .d .dend {}
 
-.data .d .d-2 { 
+.data .d .d-2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -87,7 +89,7 @@ body {
     font-weight: 400;
 }
 
-img:hover{
+img:hover {
     transform: scale(1.1);
     transition: 0.5s;
 
